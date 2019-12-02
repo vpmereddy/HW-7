@@ -1,3 +1,9 @@
+/* Name:Venkat Pranay Reddy Mereddy
+  Course name: GUI I
+  File type: .js file
+  Sources used: https://www.w3schools.com/css
+  */
+
 $.validator.addMethod( "greaterThan", function( value, element, param ) {
   var target = $( param );
 
