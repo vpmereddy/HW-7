@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="css/hw7.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <div class="row">
+    <div class="container-fluid">
+      <form id="forminput">
+        <!--Header-->
+        <h3>Multiplication Table</h3>
+        <!--this paragraph provides the rules to keep in mind-->
+          <p>The few rules to keep in mind is that , this table only accepts the integers. It also required the first horizontal and veritcal values to be less than its second. Plug in values and have fun!<p>
+
+         Please input all the numbers in the below columns: <br>
+      Enter the input for the Horizontal start Column <input class="numberinput" name="start_horizontal1" id="start_horizontal1" type="number"><br>
+         Enter the input for the Horizontal end Column <input class="numberinput" name="end_horizontal2" id="end_horizontal2" type="number"><br>
+        Enter the input for the Vertical start Row <input class="numberinput" name="start_vertical1" id="start_vertical1" type="number"><br>
+            Enter the input for the Vertical end Row<input class="numberinput" name="end_vertical2" id="end_vertical2" type="number"><br>
+        <!--the function below is the submit function.-->
+        <button type="submit" value="Submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="container-fluid pt-3">
+      <!--this provides the output with the multiplication table -->
+      <table class="table table-bordered" id="mult_Table">
+      </table>
+    </div>
+  </div>
+  <!--scripts-->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+    <script src="js/hw7.js"></script>
+</body>
+</html>

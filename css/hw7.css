@@ -1,0 +1,61 @@
+body {
+
+  padding: 30px;
+
+  overflow-x: hidden;
+
+}
+
+/*This will change the margin in between the user input area and the table*/
+table {
+  padding: 20px;
+}
+
+/*  first column and row color and style*/
+th {
+
+  background-color: #E91111;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Styling the output tables which produce even numbers  */
+td:nth-child(even) {
+
+  background-color: #2C8086;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Styling the output tables which produce odd numbers */
+td:nth-child(odd) {
+
+  background-color: #A9CE5D;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h3{
+  font-style: oblique;
+  font-family: sans-serif;
+}
+
+
+p {
+  display: inline-block;
+  text-align: left;
+  font-style: oblique;
+  font-family: Arial;
+}
+
+form {
+
+  background-image: linear-gradient(to bottom right, #D2B318,#23E2DC);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+
+  padding: 30px;
+
+  border-radius:20px;
+
+}
